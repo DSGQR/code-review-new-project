@@ -11,7 +11,7 @@ This activity will teach you how to create a code review for the master branch f
 
 ### Step 2 - Add .gitignore
 
-1. Write a simple .gitignore, here is a one liner
+1. Write a simple .gitignore, here is a one liner to copy into the terminal.
 
 ```bash
 echo ".DS_Store" > .gitignore
@@ -60,7 +60,7 @@ git branch --list
 - Make your first commit
 
 ```bash
-git add -A; git commit -m "Add index.html";
+git commit -am "Add index.html";
 ```
 
 ### Step 5 - Add index.css and commit
@@ -77,7 +77,7 @@ git add -A; git commit -m "Add index.html";
 - Commit index.css
 
 ```bash
-git add -A; git commit -m "Add index.css";
+git commit -am "Add index.css";
 ```
 
 ### Step 6 - Add index.js and commit
@@ -92,7 +92,7 @@ console.log(x);
 - Commit index.js
 
 ```bash
-git add -A; git commit -m "Add index.js";
+git commit -am "Add index.js";
 ```
 
 ### Step 7 - Push up code to github
