@@ -16,7 +16,7 @@ This activity is meant to be completed from an enitrely new repository cloned to
 - Using the terminal, navigate to your newly cloned repo.
 
 ### Step 3 - Add .gitignore
-1. Write a simple .gitignore, here is a one liner to copy into the terminal.
+- Write a simple .gitignore, here is a one liner to copy into the terminal.
 
 ```bash
 echo ".DS_Store" > .gitignore
@@ -30,16 +30,19 @@ git branch dev
 ```
 
 - You can see your new branch by typing.
+
 ```bash
 git branch --list
 ```
 
 - You enter or use the new branch by typing
+
 ```bash
 git checkout dev
 ```
 
 - You are now on the new branch dev, you can see this by listing them again
+
 ```bash
 git branch --list
 ```
