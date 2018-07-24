@@ -4,20 +4,25 @@ Activity to teach how to create request a code review for a fresh repo.
 ## Overview
 This activity will teach you how to create a code review for the master branch from this fresh repo.
 
+## Usage
+This activity is meant to be completed from an enitrely new repository cloned to your computer.
+
 ## Steps
 
-### Step 1 - Navigate To Folder
-- Open your terminal and navigate to this repo.
+### Step 1 - Create a New Repo and Clone
+- Create a new repo on github and clone it to your computer
 
-### Step 2 - Add .gitignore
+### Step 2 - Navigate To Folder
+- Using the terminal, navigate to your newly cloned repo.
 
+### Step 3 - Add .gitignore
 1. Write a simple .gitignore, here is a one liner to copy into the terminal.
 
 ```bash
 echo ".DS_Store" > .gitignore
 ```
 
-### Step 3 - Create Branch
+### Step 4 - Create Branch
 - Crete your new dev branch using the following command. This will create a new branch called dev.
 
 ```bash
@@ -39,8 +44,7 @@ git checkout dev
 git branch --list
 ```
 
-### Step 4 - Add index.html and make 1st commit
-
+### Step 5 - Add index.html and make 1st commit
 - Create an index.html file and fill it with some info.
 
 ```html
@@ -63,8 +67,7 @@ git branch --list
 git commit -am "Add index.html";
 ```
 
-### Step 5 - Add index.css and commit
-
+### Step 6 - Add index.css and commit
 - Create index.css file and fill it with some styles.
 
 ```css
@@ -80,8 +83,7 @@ git commit -am "Add index.html";
 git commit -am "Add index.css";
 ```
 
-### Step 6 - Add index.js and commit
-
+### Step 7 - Add index.js and commit
 - Create index.js file and will it with some dummy code
 
 ```javascript
@@ -95,8 +97,7 @@ console.log(x);
 git commit -am "Add index.js";
 ```
 
-### Step 7 - Push up code to github
-
+### Step 8 - Push up code to github
 - We haven't officially pushed yet, so if you haven't push up your code.
 
 ```bash
@@ -109,8 +110,7 @@ git push;
 git push --set-upstream origin dev
 ```
 
-### Step 8 - Check your branches on github
-
+### Step 9 - Check your branches on github
 - You should now be able to see your branches on github.
 
 ![Branches](./imgs/branches.png)
@@ -119,7 +119,7 @@ git push --set-upstream origin dev
 
 ![DevFiles](./imgs/devfiles.png)
 
-### Step 9 - Add your TAs as collaborators
+### Step 10 - Add your TAs as collaborators
 
 - After you've completed the above steps you must add your TA as a collaborator
 
@@ -129,14 +129,14 @@ git push --set-upstream origin dev
 2. Click on collaborators
 3. Type your TA's email and add them
 
-### Step 10 - Make Pull Request from dev to master
+### Step 11 - Make Pull Request from dev to master
 
 1. Change to dev branch in drop down.
 2. Click new pull request
 
 ![Pull](./imgs/pull.png)
 
-### Step 11 - Write Pull Request Message
+### Step 12 - Write Pull Request Message
 
 1. Write 'Code Review' in Title and Description
 
