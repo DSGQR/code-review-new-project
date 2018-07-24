@@ -9,7 +9,15 @@ This activity will teach you how to create a code review for the master branch f
 ### Step 1 - Navigate To Folder
 - Open your terminal and navigate to this repo.
 
-### Step 2 - Create Branch
+### Step 2 - Add .gitignore
+
+1. Write a simple .gitignore, here is a one liner
+
+```bash
+echo ".DS_Store" > .gitignore
+```
+
+### Step 3 - Create Branch
 - Crete your new dev branch using the following command. This will create a new branch called dev.
 
 ```bash
@@ -29,14 +37,6 @@ git checkout dev
 - You are now on the new branch dev, you can see this by listing them again
 ```bash
 git branch --list
-```
-
-### Step 3 - Add .gitignore
-
-1. Write a simple .gitignore, here is a one liner
-
-```bash
-echo ".DS_Store" > .gitignore
 ```
 
 ### Step 4 - Add index.html and make 1st commit
